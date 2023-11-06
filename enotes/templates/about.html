@@ -1,0 +1,50 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This is Simple Enotes Management System Develop by BITTU & AAYUSH. using Python Django, HTML, CSS, Bootstrp and sqlite.</p>
+  <p>This project anytime anywhere remember all queries of students Motivate peoples to use. Easy to use: E-Notes Project is very easy to use.</p>
+</div>
+<br><br>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row offset-3">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/t2.jpg' %}" alt="Pankaj Panjwani" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Bittu Sharma</h2>
+        <p class="title">Software Developer & DevOps Engineer</p>
+        <p>
+          DevOps engineers are IT professionals who bridge the gap between software development and IT operations. They work to automate and streamline the software development lifecycle, from development to deployment to maintenance. </p>
+        <p>bittush9534@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/avatar-5.png' %}" alt="Abhi" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Aayush Pandey</h2>
+        <p class="title">Full Stack Java Developer</p>
+        <p>
+          Java developers are software developers who specialize in the Java programming language. Java is a general-purpose, object-oriented programming language that is used to develop a wide variety of applications,mobile apps, and enterprise software.</p>
+        <p>aayushpandey@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
